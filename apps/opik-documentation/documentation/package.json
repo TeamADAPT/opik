@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "cd fern && fern docs dev"
+    "dev": "node init && cd fern && fern docs dev"
   },
   "dependencies": {
     "fern-api": "4.71.5"

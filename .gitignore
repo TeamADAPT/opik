@@ -5,8 +5,6 @@
 .last_run/
 
 # Environment variables
-.env.local
-.env
 
 # IntelliJ
 .idea/
@@ -86,7 +84,6 @@ sdks/python/uv.lock
 # Remove this exclusion so changes to the version file are committed.
 
 # VS Code
-.vscode
 
 # Claude Code
 .claude/
@@ -135,3 +132,8 @@ opik-migrate-*.json
 
 # private opik plugin
 apps/opik-frontend/src/plugins/ai-spend
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
+node_modules

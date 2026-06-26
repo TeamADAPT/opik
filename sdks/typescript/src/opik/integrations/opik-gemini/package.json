@@ -51,7 +51,7 @@
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "build": "tsup",
+    "build": "node init && tsup",
     "watch": "tsup --watch",
     "lint": "eslint '**/*.{ts,tsx}'",
     "typecheck": "tsc --noEmit",

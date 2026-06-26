@@ -14,8 +14,8 @@
     "email": "support@comet.com"
   },
   "scripts": {
-    "start": "vite",
-    "build": "tsc && vite build",
+    "start": "node init && vite",
+    "build": "node init && tsc && vite build",
     "serve": "vite preview",
     "test": "vitest",
     "test:ui": "vitest --ui",
